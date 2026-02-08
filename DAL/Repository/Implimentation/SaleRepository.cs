@@ -115,6 +115,23 @@ namespace DAL.Repository.Implementation
                 }
             }
         }
+        public void Delete(int id)
+        {
+            var sale = _context.Sales
+                               .Include(s => s.SaleItems) // important
+                               .FirstOrDefault(s => s.SaleId == id);
+
+            if (sale == null)
+                throw new Exception("Sale not found");
+
+            // ❌ First remove child records (SaleItems)
+            _context.SaleItems.RemoveRange(sale.SaleItems);
+
+            // ❌ Then remove Sale
+            _context.Sales.Remove(sale);
+
+            _context.SaveChanges();
+        }
 
 
     }

@@ -50,9 +50,13 @@ namespace KiaranaStroreUI.Controllers
         public async Task<IActionResult> Chart()
         {
             var client = CreateClientWithToken();
-            var data = await client.GetFromJsonAsync<List<Stock>>("Stock/GetAllStock");
-            return View(data);
+
+            var products = await client
+                .GetFromJsonAsync<List<ProductStockDto>>("Product/GetProducts");
+
+            return View(products);
         }
+
 
         public async Task<IActionResult> Edit(int id)
         {

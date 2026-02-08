@@ -1,6 +1,7 @@
 ﻿using DAL.Data;
 using DAL.Models;
 using DAL.Repository.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,7 +57,9 @@ namespace DAL.Repository.Implementation
 
         public IEnumerable<Stock> GetAll()
         {
-            return _context.Stocks.ToList();
+            return _context.Stocks.
+                Include(p=>p.Product)
+                .ToList();
         }
 
         public IEnumerable<Stock> GetLowStock(decimal limit)
@@ -73,19 +76,35 @@ namespace DAL.Repository.Implementation
             if (stock == null)
                 throw new Exception("Stock not found");
 
+            if (qty <= 0)
+                throw new Exception("Quantity must be greater than zero");
+
             if (stock.Quantity < qty)
                 throw new Exception("Insufficient stock");
 
+            // 🔻 Decrease stock
             stock.Quantity -= qty;
 
+            // 🔻 Update product quantity
             var product = _context.Products.Find(productId);
             if (product != null)
             {
                 product.QuantityInStock -= qty;
+
+                // Safety check
+                if (product.QuantityInStock < 0)
+                    product.QuantityInStock = 0;
+            }
+
+            // ❌ Remove stock record if quantity becomes zero
+            if (stock.Quantity <= 0)
+            {
+                _context.Stocks.Remove(stock);
             }
 
             _context.SaveChanges();
         }
+
 
 
         public void IncreaseStock(int productId, decimal qty)

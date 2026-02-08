@@ -111,6 +111,12 @@ namespace KiranaStore.Controllers
             return Ok(sale);
         }
 
+        [HttpDelete("DeleteSale")]
+        public IActionResult DeleteSale(int id)
+        {
+            _saleService.Delete(id);
+            return Ok("Sale Deleted SuccessFully");
+        }
 
 
         [HttpGet("GetNextInvoice")]

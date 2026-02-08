@@ -60,7 +60,7 @@ namespace DAL.Migrations
                     OrderId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    CashierId = table.Column<int>(type: "int", nullable: false),
+                    CustomerId = table.Column<int>(type: "int", nullable: false),
                     TotalAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
@@ -114,7 +114,7 @@ namespace DAL.Migrations
                     Unit = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PurchasePrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     SellingPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    QuantityInStock = table.Column<int>(type: "int", nullable: false),
+                    QuantityInStock = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Active = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
@@ -232,8 +232,8 @@ namespace DAL.Migrations
                     StockId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductId = table.Column<int>(type: "int", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false),
-                    MinimumQuantity = table.Column<int>(type: "int", nullable: false)
+                    Quantity = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    MinimumQuantity = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -276,7 +276,7 @@ namespace DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     SaleId = table.Column<int>(type: "int", nullable: false),
                     ProductId = table.Column<int>(type: "int", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false),
+                    Quantity = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Total = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },

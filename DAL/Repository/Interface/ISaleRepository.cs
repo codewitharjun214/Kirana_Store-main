@@ -11,5 +11,7 @@ namespace DAL.Repository.Interfaces
 
         void LoadSaleItems(Sale sale);
         void UpdateSale(Sale sale);
+
+        void Delete(int id);
     }
 }

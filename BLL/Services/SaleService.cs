@@ -1,6 +1,7 @@
 ﻿using DAL.Models;
 using DAL.Repository.Interface;
 using DAL.Repository.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace BLL.Services
 {
@@ -107,11 +108,17 @@ namespace BLL.Services
 
         public void UpdateSale(Sale sale)
         {
-            if(sale.SaleId<=0)
+            if (sale.SaleId <= 0)
                 throw new Exception("Invalid category ID.");
 
             _saleRepo.UpdateSale(sale);
-            
+
+        }
+
+        public void Delete(int id)
+        {
+            _saleRepo.Delete(id);
+
         }
     }
 }
