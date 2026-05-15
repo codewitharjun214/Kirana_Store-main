@@ -1,69 +1,56 @@
-﻿namespace KiranaStoreUI
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services
+builder.Services.AddControllersWithViews();
+
+// Session
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(options =>
 {
-    public class Program
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+// Cookie Authentication
+builder.Services.AddAuthentication("Cookies")
+    .AddCookie("Cookies", options =>
     {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+        options.LoginPath = "/User/Login";
+        options.AccessDeniedPath = "/User/Login";
+    });
 
-            
-            builder.Services.AddControllersWithViews();
+// API Client
+builder.Services.AddHttpClient("api", client =>
+{
+    client.BaseAddress =
+        new Uri("https://kirana-store-main.onrender.com/");
+});
 
-            
-            builder.Services.AddDistributedMemoryCache();
-            builder.Services.AddSession(options =>
-            {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
-                options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential = true;
-            });
+var app = builder.Build();
 
-           
-            var apiBaseUrl = builder.Configuration["ApiBaseUrl"] ?? "http://localhost:6000/api/";
-
-            builder.Services.AddHttpClient("api", client =>
-            {
-                client.BaseAddress = new Uri(apiBaseUrl);
-            });
-
-           
-
-            builder.Services.AddAuthentication("Cookies")
-                .AddCookie("Cookies", options =>
-                {
-                    options.LoginPath = "/User/Login";
-                    options.LogoutPath = "/User/Logout";
-                });
-
-            builder.Services.AddAuthorization();
-
-
-            builder.Services.AddHttpContextAccessor();
-
-            var app = builder.Build();
-
-            
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
-
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthentication();   // MUST be here
-            app.UseSession();
-            app.UseAuthorization();
-
-
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=User}/{action=Login}/{id?}");
-
-            app.Run();
-        }
-    }
+// Middleware
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
 }
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseSession();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=User}/{action=Login}/{id?}");
+
+app.Run();

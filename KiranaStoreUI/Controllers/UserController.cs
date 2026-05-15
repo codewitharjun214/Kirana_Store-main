@@ -32,13 +32,13 @@ namespace KiranaStoreUI.Controllers
             return client;
         }
 
-        // ================= LOGIN GET =================
+        // LOGIN PAGE
         public IActionResult Login()
         {
             return View();
         }
 
-        // ================= LOGIN POST =================
+        // LOGIN POST
         [HttpPost]
         public async Task<IActionResult> Login(LoginModel model)
         {
@@ -49,30 +49,35 @@ namespace KiranaStoreUI.Controllers
             {
                 var client = _factory.CreateClient("api");
 
-                var loginDto = new
-                {
-                    Username = model.Username,
-                    Password = model.Password
-                };
+                var response = await client.PostAsJsonAsync(
+                    "api/Auth/Login",
+                    new
+                    {
+                        Username = model.Username,
+                        Password = model.Password
+                    });
 
-                var response = await client.PostAsJsonAsync("api/Auth/Login", loginDto);
+                var responseText =
+                    await response.Content.ReadAsStringAsync();
 
                 if (!response.IsSuccessStatusCode)
                 {
-                    var error = await response.Content.ReadAsStringAsync();
-
-                    ModelState.AddModelError("", $"Login failed: {error}");
+                    ModelState.AddModelError("",
+                        $"Login Failed : {responseText}");
 
                     return View(model);
                 }
 
-                var json = await response.Content.ReadAsStringAsync();
+                var json = JsonDocument.Parse(responseText);
 
-                var doc = JsonDocument.Parse(json);
+                var token =
+                    json.RootElement.GetProperty("token").GetString();
 
-                var token = doc.RootElement.GetProperty("token").GetString();
-                var role = doc.RootElement.GetProperty("role").GetString();
-                var username = doc.RootElement.GetProperty("username").GetString();
+                var role =
+                    json.RootElement.GetProperty("role").GetString();
+
+                var username =
+                    json.RootElement.GetProperty("username").GetString();
 
                 HttpContext.Session.SetString("JWToken", token);
                 HttpContext.Session.SetString("Username", username);
@@ -84,13 +89,19 @@ namespace KiranaStoreUI.Controllers
                     new Claim(ClaimTypes.Role, role)
                 };
 
-                var identity = new ClaimsIdentity(claims, "Cookies");
+                var identity =
+                    new ClaimsIdentity(claims, "Cookies");
 
-                var principal = new ClaimsPrincipal(identity);
+                var principal =
+                    new ClaimsPrincipal(identity);
 
-                await HttpContext.SignInAsync("Cookies", principal);
+                await HttpContext.SignInAsync(
+                    "Cookies",
+                    principal);
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction(
+                    "Index",
+                    "Home");
             }
             catch (Exception ex)
             {
@@ -100,55 +111,7 @@ namespace KiranaStoreUI.Controllers
             }
         }
 
-        // ================= REGISTER GET =================
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        // ================= REGISTER POST =================
-        [HttpPost]
-        public async Task<IActionResult> Register(User model)
-        {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            try
-            {
-                var client = _factory.CreateClient("api");
-
-                var registerDto = new
-                {
-                    FullName = model.FullName,
-                    Username = model.Username,
-                    Password = model.Password,
-                    Phone = model.Phone,
-                    Role = model.Role
-                };
-
-                var response =
-                    await client.PostAsJsonAsync("api/Auth/Register", registerDto);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Login");
-                }
-
-                var error = await response.Content.ReadAsStringAsync();
-
-                ModelState.AddModelError("", $"Registration failed: {error}");
-
-                return View(model);
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", ex.Message);
-
-                return View(model);
-            }
-        }
-
-        // ================= LOGOUT =================
+        // LOGOUT
         public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
