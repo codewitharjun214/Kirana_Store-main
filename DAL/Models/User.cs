@@ -29,7 +29,7 @@ namespace DAL.Models
     public class User
     {
         [Key]
-        public int? UserId { get; set; }
+        public int UserId { get; set; }
 
         [Required(ErrorMessage = "Full Name is required")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "Full Name must be between 3 and 100 characters")]
