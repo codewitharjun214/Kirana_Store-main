@@ -10,14 +10,20 @@ using System.Text;
 
 namespace KiranaStore.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController(AuthService authService, IConfiguration configuration) : ControllerBase
+    public class AuthController : ControllerBase
     {
-        private readonly AuthService _authService = authService;
-        private readonly IConfiguration _configuration = configuration;
+        private readonly AuthService _authService;
+        private readonly IConfiguration _configuration;
 
+        public AuthController(AuthService authService, IConfiguration configuration)
+        {
+            _authService = authService;
+            _configuration = configuration;
+        }
+
+        // ================= LOGIN =================
         [AllowAnonymous]
         [HttpPost("Login")]
         public IActionResult Login([FromBody] LoginDto dto)
@@ -41,14 +47,12 @@ namespace KiranaStore.Controllers
             }
             catch (Exception ex)
             {
-
                 return Unauthorized(ex.Message);
             }
         }
 
-
-
-        [Authorize(Roles = "Admin")]
+        // ================= REGISTER =================
+        [AllowAnonymous]
         [HttpPost("Register")]
         public IActionResult Register([FromBody] RegisterDto dto)
         {
@@ -77,20 +81,23 @@ namespace KiranaStore.Controllers
             }
         }
 
-        // ================= JWT METHOD =================
+        // ================= JWT TOKEN =================
         private string GenerateJwtToken(User user)
         {
             var claims = new[]
             {
-            new Claim(ClaimTypes.Name, user.Username),
-            new Claim(ClaimTypes.Role, user.Role),
-            new Claim("UserId", user.UserId.ToString())
-        };
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Role, user.Role),
+                new Claim("UserId", user.UserId.ToString())
+            };
 
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
 
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var creds = new SigningCredentials(
+                key,
+                SecurityAlgorithms.HmacSha256
+            );
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],
