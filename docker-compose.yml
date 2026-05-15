@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: kirana_postgres
+    environment:
+      POSTGRES_USER: kirana
+      POSTGRES_PASSWORD: KiranaStorePassword123
+      POSTGRES_DB: kirana_store
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - kirana_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kirana"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kirana_api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=postgres;Port=5432;Database=kirana_store;User Id=kirana;Password=KiranaStorePassword123;"
+      Jwt__Key: "ThisIsMySuperSecretKeyForJwtAuthentication1234567890"
+      Jwt__Issuer: "WebApi"
+      Jwt__Audience: "WebApiUsers"
+      ASPNETCORE_ENVIRONMENT: "Development"
+    ports:
+      - "6000:8080"
+    networks:
+      - kirana_network
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.UI
+    container_name: kirana_ui
+    depends_on:
+      - api
+    environment:
+      ApiBaseUrl: "http://api:8080/api/"
+      ASPNETCORE_ENVIRONMENT: "Development"
+    ports:
+      - "7000:8080"
+    networks:
+      - kirana_network
+    restart: unless-stopped
+
+networks:
+  kirana_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
