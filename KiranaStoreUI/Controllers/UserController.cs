@@ -14,23 +14,30 @@ public async Task<IActionResult> Login(LoginModel model)
 
     var response = await client.PostAsJsonAsync("Auth/Login", loginDto);
 
-    if (response.IsSuccessStatusCode)
+    if (!response.IsSuccessStatusCode)
     {
-        var json = await response.Content.ReadAsStringAsync();
+        ModelState.AddModelError("", "Invalid username or password");
+        return View(model);
+    }
+
+    var json = await response.Content.ReadAsStringAsync();
+
+    try
+    {
         var doc = JsonDocument.Parse(json);
 
         var token = doc.RootElement.GetProperty("token").GetString();
         var role = doc.RootElement.GetProperty("role").GetString();
         var username = doc.RootElement.GetProperty("username").GetString();
 
-        HttpContext.Session.SetString("JWToken", token);
-        HttpContext.Session.SetString("Username", username);
-        HttpContext.Session.SetString("Role", role);
+        HttpContext.Session.SetString("JWToken", token ?? "");
+        HttpContext.Session.SetString("Username", username ?? "");
+        HttpContext.Session.SetString("Role", role ?? "");
 
         var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.Name, username),
-            new Claim(ClaimTypes.Role, role)
+            new Claim(ClaimTypes.Name, username ?? ""),
+            new Claim(ClaimTypes.Role, role ?? "")
         };
 
         var identity = new ClaimsIdentity(claims, "Cookies");
@@ -38,10 +45,11 @@ public async Task<IActionResult> Login(LoginModel model)
 
         await HttpContext.SignInAsync("Cookies", principal);
 
-        // FIXED REDIRECT
-        return RedirectToAction("Index", "Home");
+        return RedirectToAction(nameof(Login));
     }
-
-    ModelState.AddModelError("", "Invalid username or password");
-    return View(model);
+    catch
+    {
+        ModelState.AddModelError("", "API response error");
+        return View(model);
+    }
 }
