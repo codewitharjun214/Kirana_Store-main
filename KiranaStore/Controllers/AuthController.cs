@@ -67,7 +67,7 @@ namespace KiranaStore.Controllers
                 Phone = dto.Phone,
                 Role = dto.Role,
                 IsActive = true,
-                CreatedDate = DateTime.Now
+                CreatedDate = DateTime.UtcNow
             };
 
             try
