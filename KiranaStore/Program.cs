@@ -18,16 +18,18 @@ namespace KiranaStore
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Controllers
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
 
-            // 🔐 Swagger JWT Support
+            // Swagger + JWT Support
             builder.Services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Title = "KiranaStore API",
-                    Version = "v1"
+                    Version = "v1",
+                    Description = "Kirana Store Management API"
                 });
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -37,7 +39,7 @@ namespace KiranaStore
                     Scheme = "Bearer",
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
-                    Description = "Enter ONLY the JWT token. Do NOT add 'Bearer'"
+                    Description = "Enter ONLY JWT Token"
                 });
 
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -56,6 +58,7 @@ namespace KiranaStore
                 });
             });
 
+            // Database
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(
@@ -92,7 +95,7 @@ namespace KiranaStore
             builder.Services.AddScoped<StockService>();
             builder.Services.AddScoped<SupplierService>();
 
-            // 🔐 JWT Authentication (SAFE FIXES ADDED)
+            // JWT Authentication
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -105,20 +108,20 @@ namespace KiranaStore
 
                         ValidIssuer = builder.Configuration["Jwt:Issuer"],
                         ValidAudience = builder.Configuration["Jwt:Audience"],
+
                         IssuerSigningKey = new SymmetricSecurityKey(
                             Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
 
-                        // ✅ Prevent clock-time mismatch issues
                         ClockSkew = TimeSpan.Zero
                     };
 
-                    // ✅ Helpful for debugging invalid_token
                     options.Events = new JwtBearerEvents
                     {
                         OnAuthenticationFailed = context =>
                         {
                             Console.WriteLine("JWT AUTH FAILED: " +
                                 context.Exception.Message);
+
                             return Task.CompletedTask;
                         }
                     };
@@ -128,19 +131,29 @@ namespace KiranaStore
 
             var app = builder.Build();
 
-            if (app.Environment.IsDevelopment())
+            // Enable Swagger in Production
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "KiranaStore API V1");
+                c.RoutePrefix = "swagger";
+            });
 
             app.UseHttpsRedirection();
 
-            // 🔴 ORDER IS CORRECT (do not change)
+            // Authentication & Authorization
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
+
+            // Default Route
+            app.MapGet("/", () =>
+            {
+                return Results.Redirect("/swagger");
+            });
+
             app.Run();
         }
     }
