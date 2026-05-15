@@ -50,7 +50,7 @@ namespace KiranaStoreUI.Controllers
                 var client = _factory.CreateClient("api");
 
                 var response = await client.PostAsJsonAsync(
-                    "api/Auth/Login",
+                    "Auth/Login",
                     new
                     {
                         Username = model.Username,
@@ -70,14 +70,27 @@ namespace KiranaStoreUI.Controllers
 
                 var json = JsonDocument.Parse(responseText);
 
-                var token =
-                    json.RootElement.GetProperty("token").GetString();
+                string token = "";
+                string role = "";
+                string username = "";
 
-                var role =
-                    json.RootElement.GetProperty("role").GetString();
+                if (json.RootElement.TryGetProperty("token", out var tokenProp))
+                    token = tokenProp.GetString();
 
-                var username =
-                    json.RootElement.GetProperty("username").GetString();
+                if (json.RootElement.TryGetProperty("Token", out var tokenProp2))
+                    token = tokenProp2.GetString();
+
+                if (json.RootElement.TryGetProperty("role", out var roleProp))
+                    role = roleProp.GetString();
+
+                if (json.RootElement.TryGetProperty("Role", out var roleProp2))
+                    role = roleProp2.GetString();
+
+                if (json.RootElement.TryGetProperty("username", out var userProp))
+                    username = userProp.GetString();
+
+                if (json.RootElement.TryGetProperty("Username", out var userProp2))
+                    username = userProp2.GetString();
 
                 HttpContext.Session.SetString("JWToken", token);
                 HttpContext.Session.SetString("Username", username);
