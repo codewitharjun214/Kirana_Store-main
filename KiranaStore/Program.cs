@@ -22,14 +22,13 @@ namespace KiranaStore
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
 
-            // Swagger + JWT Support
+            // Swagger
             builder.Services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Title = "KiranaStore API",
-                    Version = "v1",
-                    Description = "Kirana Store Management API"
+                    Version = "v1"
                 });
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -39,7 +38,7 @@ namespace KiranaStore
                     Scheme = "Bearer",
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
-                    Description = "Enter ONLY JWT Token"
+                    Description = "Enter JWT Token"
                 });
 
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -95,7 +94,7 @@ namespace KiranaStore
             builder.Services.AddScoped<StockService>();
             builder.Services.AddScoped<SupplierService>();
 
-            // JWT Authentication
+            // JWT
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -114,24 +113,13 @@ namespace KiranaStore
 
                         ClockSkew = TimeSpan.Zero
                     };
-
-                    options.Events = new JwtBearerEvents
-                    {
-                        OnAuthenticationFailed = context =>
-                        {
-                            Console.WriteLine("JWT AUTH FAILED: " +
-                                context.Exception.Message);
-
-                            return Task.CompletedTask;
-                        }
-                    };
                 });
 
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
-            // Enable Swagger in Production
+            // Swagger
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
@@ -140,15 +128,15 @@ namespace KiranaStore
                 c.RoutePrefix = "swagger";
             });
 
+            app.UseRouting();
+
             app.UseHttpsRedirection();
 
-            // Authentication & Authorization
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
 
-            // Default Route
             app.MapGet("/", () =>
             {
                 return Results.Redirect("/swagger");

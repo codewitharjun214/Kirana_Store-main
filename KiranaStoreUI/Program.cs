@@ -2,7 +2,7 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
+// MVC
 builder.Services.AddControllersWithViews();
 
 // Session
@@ -10,12 +10,12 @@ builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.IdleTimeout = TimeSpan.FromHours(2);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
 
-// Cookie Authentication
+// Authentication
 builder.Services.AddAuthentication("Cookies")
     .AddCookie("Cookies", options =>
     {
@@ -23,16 +23,15 @@ builder.Services.AddAuthentication("Cookies")
         options.AccessDeniedPath = "/User/Login";
     });
 
-// API Client
+// API Connection
 builder.Services.AddHttpClient("api", client =>
 {
-    client.BaseAddress =
-        new Uri("https://kirana-store-main.onrender.com/");
+    client.BaseAddress = new Uri("https://kirana-store-main.onrender.com/api/");
 });
 
 var app = builder.Build();
 
-// Middleware
+// Error Handling
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -40,6 +39,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -47,6 +47,7 @@ app.UseRouting();
 app.UseSession();
 
 app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
