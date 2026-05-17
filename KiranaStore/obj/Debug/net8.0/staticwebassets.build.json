@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"UxC0Gw0l3vJJpW9B2wAf8g47zLYJuY2wcSAquFRHb4Y=","Source":"KiranaStore","BasePath":"_content/KiranaStore","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "BUeYRVxJ+yQ70SNX+zg/5H2XVZvNMS0g3ORnAjQFYkE=",
+  "Source": "KiranaStore",
+  "BasePath": "_content/KiranaStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

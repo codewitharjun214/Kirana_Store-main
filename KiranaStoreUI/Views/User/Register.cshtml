@@ -57,16 +57,3 @@
 
     </form>
 </div>
-
-@section Scripts {
-    <script>
-        document.getElementById("username").addEventListener("blur", async function () {
-            let username = this.value;
-            if (!username) return;
-
-            let response = await fetch(`/User/IsUsernameExists?username=${username}`);
-            let exists = await response.json();
-            document.getElementById("username-msg").innerText = exists ? "Username already taken!" : "";
-        });
-    </script>
-}

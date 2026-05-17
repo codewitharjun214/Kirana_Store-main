@@ -20,42 +20,77 @@ namespace KiranaStoreUI.Controllers
         private HttpClient CreateClientWithToken()
         {
             var client = _factory.CreateClient("api");
+
             var token = HttpContext.Session.GetString("JWToken");
+
             if (!string.IsNullOrEmpty(token))
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
 
             return client;
         }
 
+        // LOGIN PAGE
         public IActionResult Login()
         {
             return View();
         }
 
+        // LOGIN POST
         [HttpPost]
         public async Task<IActionResult> Login(LoginModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
 
-            var client = _factory.CreateClient("api");
-
-            var loginDto = new
+            try
             {
-                Username = model.Username,
-                Password = model.Password
-            };
+                var client = _factory.CreateClient("api");
 
-            var response = await client.PostAsJsonAsync("Auth/Login", loginDto);
+                var response = await client.PostAsJsonAsync(
+                    "Auth/Login",
+                    new
+                    {
+                        Username = model.Username,
+                        Password = model.Password
+                    });
 
-            if (response.IsSuccessStatusCode)
-            {
-                var json = await response.Content.ReadAsStringAsync();
-                var doc = JsonDocument.Parse(json);
+                var responseText =
+                    await response.Content.ReadAsStringAsync();
 
-                var token = doc.RootElement.GetProperty("token").GetString();
-                var role = doc.RootElement.GetProperty("role").GetString();
-                var username = doc.RootElement.GetProperty("username").GetString();
+                if (!response.IsSuccessStatusCode)
+                {
+                    ModelState.AddModelError("",
+                        $"Login Failed : {responseText}");
+
+                    return View(model);
+                }
+
+                var json = JsonDocument.Parse(responseText);
+
+                string token = "";
+                string role = "";
+                string username = "";
+
+                if (json.RootElement.TryGetProperty("token", out var tokenProp))
+                    token = tokenProp.GetString();
+
+                if (json.RootElement.TryGetProperty("Token", out var tokenProp2))
+                    token = tokenProp2.GetString();
+
+                if (json.RootElement.TryGetProperty("role", out var roleProp))
+                    role = roleProp.GetString();
+
+                if (json.RootElement.TryGetProperty("Role", out var roleProp2))
+                    role = roleProp2.GetString();
+
+                if (json.RootElement.TryGetProperty("username", out var userProp))
+                    username = userProp.GetString();
+
+                if (json.RootElement.TryGetProperty("Username", out var userProp2))
+                    username = userProp2.GetString();
 
                 HttpContext.Session.SetString("JWToken", token);
                 HttpContext.Session.SetString("Username", username);
@@ -67,16 +102,26 @@ namespace KiranaStoreUI.Controllers
                     new Claim(ClaimTypes.Role, role)
                 };
 
-                var identity = new ClaimsIdentity(claims, "Cookies");
-                var principal = new ClaimsPrincipal(identity);
+                var identity =
+                    new ClaimsIdentity(claims, "Cookies");
 
-                await HttpContext.SignInAsync("Cookies", principal);
+                var principal =
+                    new ClaimsPrincipal(identity);
 
-                return RedirectToAction("Create", "sale");
+                await HttpContext.SignInAsync(
+                    "Cookies",
+                    principal);
+
+                return RedirectToAction(
+                    "DashBoard",
+                    "Dashboard");
             }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
 
-            ModelState.AddModelError("", "Invalid username or password");
-            return View(model);
+                return View(model);
+            }
         }
 
         public IActionResult Register()
@@ -92,7 +137,7 @@ namespace KiranaStoreUI.Controllers
 
             var client = _factory.CreateClient("api");
 
-          
+
 
             var registerDto = new
             {
@@ -114,18 +159,13 @@ namespace KiranaStoreUI.Controllers
             return View(model);
         }
 
-        [HttpGet]
-        public async Task<JsonResult> IsUsernameExists(string username)
-        {
-            var client = _factory.CreateClient("api");
-            var exists = await client.GetFromJsonAsync<bool>($"Auth/IsUsernameExists/{username}");
-            return Json(exists);
-        }
-
+        // LOGOUT
         public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
+
             await HttpContext.SignOutAsync("Cookies");
+
             return RedirectToAction("Login");
         }
     }
