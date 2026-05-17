@@ -58,8 +58,17 @@ namespace KiranaStore
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection"));
+                var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+                
+                // Use PostgreSQL (Npgsql) in production, SQL Server in development
+                if (builder.Environment.IsProduction())
+                {
+                    options.UseNpgsql(connectionString);
+                }
+                else
+                {
+                    options.UseSqlServer(connectionString);
+                }
             });
 
             // Repositories

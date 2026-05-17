@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj": {}
+    "c:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj": {
+    "c:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj",
         "projectName": "KiranaStoreUI",
-        "projectPath": "C:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj",
+        "projectPath": "c:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\KiranaStoreUI.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\obj\\",
+        "outputPath": "c:\\Users\\HP\\Downloads\\Kirana_Store-main\\Kirana_Store-main\\KiranaStoreUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
