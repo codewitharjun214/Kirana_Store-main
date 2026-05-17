@@ -1,131 +1,162 @@
-[HttpPost]
-public async Task<IActionResult> Create(SaleCustomerVM vm)
+using KiranaStoreUI.Models;
+using KiranaStoreUI.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
+
+namespace KiranaStoreUI.Controllers
 {
-    AddJwtToken();
-
-    try
+    public class SaleController : Controller
     {
-        // ✅ Validation
-        if (vm == null || vm.Sale == null || vm.Customer == null)
+        private readonly HttpClient _client;
+
+        public SaleController(IHttpClientFactory factory)
         {
-            ModelState.AddModelError("", "Customer is required");
-            return View(vm);
+            _client = factory.CreateClient("api");
         }
 
-        // ✅ Create Customer First
-        var custResponse =
-            await _client.PostAsJsonAsync(
-                "Customer/AddCustomer",
-                vm.Customer);
-
-        // ❌ Customer API failed
-        if (!custResponse.IsSuccessStatusCode)
+        // ---------------- JWT ----------------
+        private void AddJwtToken()
         {
-            var custError =
-                await custResponse.Content.ReadAsStringAsync();
+            var token = HttpContext.Session.GetString("JWToken");
 
-            ModelState.AddModelError("",
-                $"Customer creation failed : {custError}");
-
-            ViewBag.NextInvoice = vm.Sale.InvoiceNumber;
-
-            return View(vm);
-        }
-
-        // ✅ Read Created Customer
-        var createdCustomer =
-            await custResponse.Content.ReadFromJsonAsync<Customer>();
-
-        if (createdCustomer == null ||
-            createdCustomer.CustomerId <= 0)
-        {
-            ModelState.AddModelError("",
-                "Invalid customer returned from API");
-
-            ViewBag.NextInvoice = vm.Sale.InvoiceNumber;
-
-            return View(vm);
-        }
-
-        // ✅ Assign CustomerId to Sale
-        vm.Sale.CustomerId =
-            createdCustomer.CustomerId;
-
-        // ✅ Set Sale Date
-        vm.Sale.SaleDate = DateTime.Now;
-
-        // ✅ Load products
-        var products =
-            await _client.GetFromJsonAsync<List<Product>>(
-                "Product/GetProducts");
-
-        decimal totalAmount = 0;
-
-        // ✅ Calculate totals
-        if (vm.Sale.SaleItems != null)
-        {
-            foreach (var item in vm.Sale.SaleItems)
+            if (!string.IsNullOrEmpty(token))
             {
-                var product =
-                    products.FirstOrDefault(
-                        p => p.ProductId == item.ProductId);
-
-                if (product == null)
-                    continue;
-
-                // ✅ Auto price
-                item.Price = product.SellingPrice;
-
-                // ✅ Total
-                item.Total =
-                    item.Quantity * item.Price;
-
-                totalAmount += item.Total;
-
-                // ✅ Prevent circular reference
-                item.Product = null;
-                item.Sale = null;
+                _client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
             }
         }
 
-        // ✅ Final Amounts
-        vm.Sale.TotalAmount = totalAmount;
-        vm.Sale.NetAmount =
-            totalAmount - vm.Sale.Discount;
-
-        // ✅ Create Sale
-        var saleResponse =
-            await _client.PostAsJsonAsync(
-                "Sale/AddSale",
-                vm.Sale);
-
-        // ✅ Success
-        if (saleResponse.IsSuccessStatusCode)
+        // ---------------- INDEX ----------------
+        public async Task<IActionResult> Index()
         {
-            TempData["SuccessMsg"] =
-                $"Sale created successfully! Invoice: {vm.Sale.InvoiceNumber}";
+            AddJwtToken();
 
-            return RedirectToAction("Index");
+            var sales =
+                await _client.GetFromJsonAsync<List<Sale>>(
+                    "Sale/GetAllSales");
+
+            return View(sales);
         }
 
-        // ❌ Sale Failed
-        var saleError =
-            await saleResponse.Content.ReadAsStringAsync();
+        // ---------------- CREATE GET ----------------
+        public async Task<IActionResult> Create()
+        {
+            AddJwtToken();
 
-        ModelState.AddModelError("",
-            $"Sale creation failed : {saleError}");
+            string nextInvoice =
+                await _client.GetStringAsync(
+                    "Sale/GetNextInvoice");
 
-        ViewBag.NextInvoice = vm.Sale.InvoiceNumber;
+            var vm = new SaleCustomerVM
+            {
+                Sale = new Sale
+                {
+                    InvoiceNumber = nextInvoice,
+                    SaleDate = DateTime.Now,
+                    SaleItems = new List<SaleItem>()
+                },
+                Customer = new Customer()
+            };
 
-        return View(vm);
-    }
-    catch (Exception ex)
-    {
-        ModelState.AddModelError("",
-            ex.Message);
+            ViewBag.NextInvoice = nextInvoice;
 
-        ViewBag.NextInvoice = vm?.Sale?.InvoiceNumber;
+            return View(vm);
+        }
 
-        return View(vm);
+        // ---------------- CREATE POST ----------------
+        [HttpPost]
+        public async Task<IActionResult> Create(SaleCustomerVM vm)
+        {
+            AddJwtToken();
+
+            try
+            {
+                if (vm == null ||
+                    vm.Sale == null ||
+                    vm.Customer == null)
+                {
+                    ModelState.AddModelError("",
+                        "Customer is required");
+
+                    return View(vm);
+                }
+
+                // ✅ Create Customer
+                var custResponse =
+                    await _client.PostAsJsonAsync(
+                        "Customer/AddCustomer",
+                        vm.Customer);
+
+                if (!custResponse.IsSuccessStatusCode)
+                {
+                    var custError =
+                        await custResponse.Content.ReadAsStringAsync();
+
+                    ModelState.AddModelError("",
+                        $"Customer creation failed : {custError}");
+
+                    return View(vm);
+                }
+
+                // ✅ Get Created Customer
+                var createdCustomer =
+                    await custResponse.Content
+                        .ReadFromJsonAsync<Customer>();
+
+                if (createdCustomer == null)
+                {
+                    ModelState.AddModelError("",
+                        "Customer not returned");
+
+                    return View(vm);
+                }
+
+                // ✅ Assign CustomerId
+                vm.Sale.CustomerId =
+                    createdCustomer.CustomerId;
+
+                vm.Sale.SaleDate = DateTime.Now;
+
+                // ✅ Fix circular refs
+                if (vm.Sale.SaleItems != null)
+                {
+                    foreach (var item in vm.Sale.SaleItems)
+                    {
+                        item.Product = null;
+                        item.Sale = null;
+                    }
+                }
+
+                // ✅ Create Sale
+                var saleResponse =
+                    await _client.PostAsJsonAsync(
+                        "Sale/AddSale",
+                        vm.Sale);
+
+                if (saleResponse.IsSuccessStatusCode)
+                {
+                    TempData["SuccessMsg"] =
+                        "Sale Created Successfully";
+
+                    return RedirectToAction("Index");
+                }
+
+                var saleError =
+                    await saleResponse.Content.ReadAsStringAsync();
+
+                ModelState.AddModelError("",
+                    $"Sale creation failed : {saleError}");
+
+                return View(vm);
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("",
+                    ex.Message);
+
+                return View(vm);
+            }
+        }
     }
 }
