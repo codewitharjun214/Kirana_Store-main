@@ -48,7 +48,6 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<CustomerService>();
 builder.Services.AddScoped<SaleService>();
-builder.Services.AddScoped<UserService>();
 
 // =======================================
 // SWAGGER
