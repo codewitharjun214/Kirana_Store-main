@@ -1,37 +1,30 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using KiranaStoreUI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// MVC
+// Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Session
-builder.Services.AddDistributedMemoryCache();
+builder.Services.AddHttpClient("api", client =>
+{
+    // UPDATED RENDER URL
+    client.BaseAddress = new Uri("https://kirana-store-main-1.onrender.com/api/");
+});
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromHours(2);
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
 
-// Authentication
-builder.Services.AddAuthentication("Cookies")
-    .AddCookie("Cookies", options =>
-    {
-        options.LoginPath = "/User/Login";
-        options.AccessDeniedPath = "/User/Login";
-    });
+builder.Services.AddHttpContextAccessor();
 
-// API Connection
-builder.Services.AddHttpClient("api", client =>
-{
-    client.BaseAddress = new Uri("https://kirana-store-main.onrender.com/api/");
-});
+builder.Services.AddScoped<ApiService>();
 
 var app = builder.Build();
 
-// Error Handling
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -39,19 +32,17 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseSession();
 
-app.UseAuthentication();
-
 app.UseAuthorization();
 
+// DEFAULT ROUTE
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=User}/{action=Login}/{id?}");
+    pattern: "{controller=Dashboard}/{action=Dashboard}/{id?}");
 
 app.Run();
