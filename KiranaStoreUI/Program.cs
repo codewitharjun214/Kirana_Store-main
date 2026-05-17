@@ -54,7 +54,7 @@ if (!app.Environment.IsDevelopment())
 // Middleware
 // ==========================================
 
-// Disable HTTPS redirect for Render
+// Render handles HTTPS
 // app.UseHttpsRedirection();
 
 app.UseStaticFiles();
@@ -70,14 +70,14 @@ app.UseAuthorization();
 // ==========================================
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=DashBoard}/{action=Dashboard}/{id?}");
+    pattern: "{controller=User}/{action=Login}/{id?}");
 
 // ==========================================
 // Root URL Redirect
 // ==========================================
 app.MapGet("/", () =>
 {
-    return Results.Redirect("/DashBoard/Dashboard");
+    return Results.Redirect("/User/Login");
 });
 
 // ==========================================
