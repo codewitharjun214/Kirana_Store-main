@@ -92,12 +92,7 @@ namespace KiranaStoreUI.Controllers
 
             var client = _factory.CreateClient("api");
 
-            var exists = await client.GetFromJsonAsync<bool>($"Auth/IsUsernameExists/{model.Username}");
-            if (exists)
-            {
-                ModelState.AddModelError("Username", "Username already exists");
-                return View(model);
-            }
+          
 
             var registerDto = new
             {

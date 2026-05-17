@@ -1,183 +1,322 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\interface\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\saleitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\saleitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\kiranastore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:kiranastore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\saleitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\kiranastore.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:kiranastore.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\purchaseitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\saleitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\saleitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\purchaseitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\purchaseitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\kiranastore\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\interface\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\my projects\\demo_kirana\\kiranastore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A774056-0DB6-4319-9185-BDC5AE189F55}|KiranaStore.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\stockledger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\implimentation\\purchaseitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\interface\\isaleitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\interface\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\repository\\interface\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CF6564-45AC-4FEC-879E-A86A2FB9570D}|..\\BLL\\BLL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\bll\\services\\purchaseitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\purchaseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\migrations\\20251211063119_fixsaleitemproductfk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5247FC6B-632A-48A7-9FB6-B6A9B3F10855}|..\\DAL\\DAL.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\internship\\kirana store\\dal\\migrations\\20251211054125_fixsalesaleitemsrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IAuthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\AuditLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\StockService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\StockLedger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\PaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IStockRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IOrderItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\PurchaseItemService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\PurchaseItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\PurchaseItemService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\CustomerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\OrderItemService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\PaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CategoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\CategoryService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICategoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\SaleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\SaleItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\PurchaseItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\ProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IStockRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\AuthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IAuthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IPaymentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\StockLedger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -187,7 +326,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,651 +337,1168 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T06:50:38.956Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SaleController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\SaleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SaleController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\SaleController.cs",
-              "RelativeToolTip": "Controllers\\SaleController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:00:53.342Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Sale.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Sale.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T05:24:06.499Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ISaleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Interface\\ISaleRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Interface\\ISaleRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T05:33:59.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SaleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAApwDIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T05:32:17.734Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SaleItem.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\SaleItem.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\SaleItem.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwC8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T05:22:17.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T05:25:20.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAywAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:40:38.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SaleService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\SaleService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\SaleService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T05:28:18.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowB8AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:26:22.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:25:44.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SaleItemController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\SaleItemController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SaleItemController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\SaleItemController.cs",
-              "RelativeToolTip": "Controllers\\SaleItemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:39:42.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAYwKEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:27:09.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T06:25:35.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:40:07.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAewBYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:52:52.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T16:24:46.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAnwBcAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\DAL\\Models\\Category.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Category.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwBkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T09:39:56.874Z"
+              "WhenOpened": "2026-05-14T12:40:04.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAhwBAAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:19:34.793Z"
+              "WhenOpened": "2025-12-16T17:40:38.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 63,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\CustomerService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:22:10.411Z"
+              "WhenOpened": "2026-02-11T12:25:15.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Interface\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Interface\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T07:24:25.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:17:42.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T10:39:36.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderItemController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\OrderItemController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderItemController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\OrderItemController.cs",
-              "RelativeToolTip": "Controllers\\OrderItemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:40:18.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:40:29.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-16T09:56:52.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T07:22:21.153Z"
+              "WhenOpened": "2025-12-16T16:22:10.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\ProductService.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAqwEgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T06:23:52.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Product.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Product.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAArwBIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T06:48:34.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "StockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\StockRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\StockRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T06:55:56.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 64,
               "Title": "OrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\OrderItemService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\OrderItemService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\OrderItemService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\OrderItemService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T07:05:12.476Z"
+              "WhenOpened": "2026-02-13T05:13:05.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\BLL\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\BLL\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "..\\BLL\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:31:42.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\BLL\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\BLL\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "..\\BLL\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:31:48.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T06:25:33.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PurchaseItemService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\PurchaseItemService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\PurchaseItemService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\PurchaseItemService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\PurchaseItemService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T06:25:44.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KiranaStore.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\KiranaStore.csproj",
+              "RelativeDocumentMoniker": "KiranaStore.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\KiranaStore.csproj",
+              "RelativeToolTip": "KiranaStore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T06:45:34.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T12:55:42.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\PaymentService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T06:27:21.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:45:57.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:25:16.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\OrderService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T12:02:12.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:09:13.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:43:55.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\OrderItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\OrderItemController.cs",
+              "RelativeToolTip": "Controllers\\OrderItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:40:18.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T04:24:49.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:01:00.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Category.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Category.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:57:21.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:42:56.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:15:37.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:55:25.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Product.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:27:53.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwDwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:28:21.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\SaleItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\SaleItem.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\SaleItem.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\SaleItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:32:54.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Sale.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Sale.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA4wAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:32:53.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KiranaStore.http",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\KiranaStore.http",
+              "RelativeDocumentMoniker": "KiranaStore.http",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\KiranaStore.http",
+              "RelativeToolTip": "KiranaStore.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-13T07:16:11.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PurchaseItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\PurchaseItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\PurchaseItem.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\PurchaseItem.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\PurchaseItem.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA4wB8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:45:39.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\OrderItem.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\OrderItem.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA5wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:52:22.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:44:22.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:46:19.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
               "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAASwCEAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:26:52.736Z"
+              "WhenOpened": "2026-02-13T05:10:38.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAASwBgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 85,
+              "Title": "IStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IStockRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IStockRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IStockRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IStockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T07:19:50.271Z"
+              "WhenOpened": "2026-02-13T05:14:19.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SaleItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 86,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T06:25:21.779Z"
+              "WhenOpened": "2026-02-11T10:45:43.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 12,
               "Title": "SupplierController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\SupplierController.cs",
               "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\SupplierController.cs",
               "RelativeToolTip": "Controllers\\SupplierController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T10:40:48.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PurchaseItemController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\PurchaseItemController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PurchaseItemController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\PurchaseItemController.cs",
-              "RelativeToolTip": "Controllers\\PurchaseItemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 87,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T10:39:48.833Z"
+              "WhenOpened": "2026-02-11T12:43:03.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 88,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Supplier.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Supplier.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA9wCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:30:46.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IAuthRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:43:56.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:44:17.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:44:25.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IPaymentRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:41:15.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "StockController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\StockController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\StockController.cs",
               "RelativeDocumentMoniker": "Controllers\\StockController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\StockController.cs",
               "RelativeToolTip": "Controllers\\StockController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwv04AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T10:07:32.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 14,
+              "Title": "SaleItemController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\SaleItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SaleItemController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\SaleItemController.cs",
+              "RelativeToolTip": "Controllers\\SaleItemController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:39:42.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "Controllers\\SaleController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T11:00:53.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PurchaseItemController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\PurchaseItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PurchaseItemController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\PurchaseItemController.cs",
+              "RelativeToolTip": "Controllers\\PurchaseItemController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T10:39:48.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "PurchaseController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\PurchaseController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\PurchaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\PurchaseController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\KiranaStore\\Controllers\\PurchaseController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\PurchaseController.cs",
               "RelativeToolTip": "Controllers\\PurchaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T17:39:07.639Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T10:39:36.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:17:42.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:40:07.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\My Projects\\demo_kirana\\KiranaStore\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:40:29.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Order.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Order.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:53:55.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Payment.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Payment.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:51:15.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Purchase.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:46:40.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "StockLedger.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\StockLedger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\StockLedger.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\StockLedger.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\StockLedger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:31:10.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Models\\Stock.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T04:32:11.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\demo_kirana\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T10:41:17.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ISaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T05:33:59.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T05:32:17.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\SaleItem.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T05:22:17.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CustomerRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T05:25:20.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Sale.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T05:24:06.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Customer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T06:50:38.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\SaleService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T05:28:18.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\CategoryService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T11:26:22.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\CategoryRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T11:25:44.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Data\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T11:27:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T06:25:35.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\AuthService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T12:52:52.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\OrderService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:39:56.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\AuthRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T11:19:34.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IProductRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:24:25.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\ProductRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:22:21.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\ProductService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T06:23:52.016Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 39,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Product.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Product.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:48:34.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\StockRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:55:56.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\OrderItemService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:05:12.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\OrderItemRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T11:26:52.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PaymentRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:19:50.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SaleItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\SaleItemRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T06:25:21.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\User.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\User.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\User.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\User.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T12:52:11.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IAuthRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Interface\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IAuthRepository.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IAuthRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Interface\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IAuthRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T12:52:21.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\AuditLog.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\AuditLog.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\AuditLog.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\AuditLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\AuditLog.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T11:22:45.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "StockService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\StockService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\StockService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\StockService.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\StockService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\StockService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAwwDEAAAAvAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\StockService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T07:03:41.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "StockLedger.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\StockLedger.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\StockLedger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\StockLedger.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\StockLedger.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\StockLedger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\StockLedger.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T11:03:32.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "PurchaseItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAApwBQAAAAqAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Implimentation\\PurchaseItemRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T06:53:29.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\PaymentService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\PaymentService.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\PaymentService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\PaymentService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\PaymentService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T07:18:00.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "ISaleItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleItemRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Interface\\ISaleItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleItemRepository.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleItemRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Interface\\ISaleItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\ISaleItemRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T09:30:57.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "IStockRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IStockRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Interface\\IStockRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IStockRepository.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IStockRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Interface\\IStockRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IStockRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T07:10:26.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "IOrderItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
-              "RelativeToolTip": "..\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Repository\\Interface\\IOrderItemRepository.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T07:32:33.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Payment.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Payment.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Payment.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T06:48:50.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "PurchaseItemService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\PurchaseItemService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\PurchaseItemService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\PurchaseItemService.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\BLL\\Services\\PurchaseItemService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\PurchaseItemService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\BLL\\Services\\PurchaseItemService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T06:47:09.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "PurchaseItem.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\PurchaseItem.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\PurchaseItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\PurchaseItem.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\PurchaseItem.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\PurchaseItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\PurchaseItem.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T06:54:34.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Models\\Category.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Models\\Category.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T11:22:51.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "20251211054125_FixSaleSaleItemsRelation.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs",
-              "RelativeToolTip": "..\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Migrations\\20251211054125_FixSaleSaleItemsRelation.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T05:41:26.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 60,
               "Title": "20251211063119_FixSaleItemProductFK.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Internship\\Kirana Store\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs",
-              "RelativeToolTip": "..\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Internship\\Kirana Store\\DAL\\Migrations\\20251211063119_FixSaleItemProductFK.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T06:31:19.227Z"
             }
