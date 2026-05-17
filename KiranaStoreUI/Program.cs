@@ -2,9 +2,18 @@
 
 builder.Services.AddControllersWithViews();
 
+var apiBase = builder.Configuration["ApiBaseUrl"];
+if (string.IsNullOrWhiteSpace(apiBase))
+{
+    // Default to local backend when running in development
+    apiBase = builder.Environment.IsDevelopment()
+        ? "http://localhost:5000/api/"
+        : "https://kirana-store-main.onrender.com/api/";
+}
+
 builder.Services.AddHttpClient("api", client =>
 {
-    client.BaseAddress = new Uri("https://kirana-store-main.onrender.com/api/");
+    client.BaseAddress = new Uri(apiBase);
 });
 
 builder.Services.AddSession(options =>
