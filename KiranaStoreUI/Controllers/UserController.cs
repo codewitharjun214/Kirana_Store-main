@@ -53,8 +53,9 @@ namespace KiranaStoreUI.Controllers
             {
                 var client = _factory.CreateClient("api");
 
+                // FIXED API ROUTE
                 var response = await client.PostAsJsonAsync(
-                    "Auth/Login",
+                    "User/Login",
                     new
                     {
                         Username = model.Username,
@@ -96,16 +97,12 @@ namespace KiranaStoreUI.Controllers
                 if (json.RootElement.TryGetProperty("Username", out var userProp2))
                     username = userProp2.GetString() ?? "";
 
-                // =========================================
                 // Save Session
-                // =========================================
                 HttpContext.Session.SetString("JWToken", token);
                 HttpContext.Session.SetString("Username", username);
                 HttpContext.Session.SetString("Role", role);
 
-                // =========================================
                 // Cookie Authentication
-                // =========================================
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, username),
@@ -122,9 +119,7 @@ namespace KiranaStoreUI.Controllers
                     "Cookies",
                     principal);
 
-                // =========================================
                 // Redirect To Dashboard
-                // =========================================
                 return RedirectToAction(
                     "Dashboard",
                     "DashBoard");
@@ -165,8 +160,9 @@ namespace KiranaStoreUI.Controllers
                 Role = model.Role,
             };
 
+            // FIXED API ROUTE
             var response = await client.PostAsJsonAsync(
-                "Auth/Register",
+                "User/Register",
                 registerDto);
 
             if (response.IsSuccessStatusCode)
