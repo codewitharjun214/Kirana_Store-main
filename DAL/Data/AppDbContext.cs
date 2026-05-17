@@ -110,7 +110,7 @@ namespace DAL.Data
                 .HasOne<Customer>()
                 .WithMany()
                 .HasForeignKey(s => s.CustomerId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.Restrict);
 
             // -------- SaleItem --------
             modelBuilder.Entity<SaleItem>()
