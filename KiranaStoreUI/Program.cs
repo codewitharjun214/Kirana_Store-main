@@ -1,18 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
-
-// ==========================================
-// Add services to the container
-// ==========================================
+﻿```csharp
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-// Backend API Connection
 builder.Services.AddHttpClient("api", client =>
 {
     client.BaseAddress = new Uri("https://kirana-store-main.onrender.com/api/");
 });
 
-// Session Configuration
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -20,14 +15,9 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// HttpContext Accessor
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
-
-// ==========================================
-// Configure HTTP Request Pipeline
-// ==========================================
 
 if (!app.Environment.IsDevelopment())
 {
@@ -36,26 +26,17 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 
 app.UseRouting();
 
-// Enable Session
 app.UseSession();
 
 app.UseAuthorization();
 
-// ==========================================
-// Default Route
-// ==========================================
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-// ==========================================
-// Run Application
-// ==========================================
+    pattern: "{controller=Auth}/{action=Login}/{id?}");
 
 app.Run();
+```
