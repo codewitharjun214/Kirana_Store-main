@@ -1,7 +1,13 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
+// ==========================================
+// Add MVC Services
+// ==========================================
 builder.Services.AddControllersWithViews();
 
+// ==========================================
+// Backend API URL
+// ==========================================
 var apiBase = builder.Configuration["ApiBaseUrl"];
 
 if (string.IsNullOrWhiteSpace(apiBase))
@@ -11,11 +17,17 @@ if (string.IsNullOrWhiteSpace(apiBase))
         : "https://kirana-store-main.onrender.com/api/";
 }
 
+// ==========================================
+// HTTP Client
+// ==========================================
 builder.Services.AddHttpClient("api", client =>
 {
     client.BaseAddress = new Uri(apiBase);
 });
 
+// ==========================================
+// Session
+// ==========================================
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -23,17 +35,27 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+// ==========================================
+// HttpContext
+// ==========================================
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
+// ==========================================
+// Error Handling
+// ==========================================
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// ==========================================
+// Middleware
+// ==========================================
+
+// Disable HTTPS redirect for Render
+// app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 
@@ -43,8 +65,22 @@ app.UseSession();
 
 app.UseAuthorization();
 
+// ==========================================
+// Default MVC Route
+// ==========================================
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=DashBoard}/{action=Dashboard}/{id?}");
 
+// ==========================================
+// Root URL Redirect
+// ==========================================
+app.MapGet("/", () =>
+{
+    return Results.Redirect("/DashBoard/Dashboard");
+});
+
+// ==========================================
+// Run App
+// ==========================================
 app.Run();
