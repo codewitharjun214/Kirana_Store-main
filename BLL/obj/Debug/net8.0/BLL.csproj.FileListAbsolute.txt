@@ -23,9 +23,9 @@ C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\B
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.sourcelink.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.dll
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\refint\BLL.dll
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.pdb
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\ref\BLL.dll
-C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\BLL\obj\Debug\net8.0\BLL.sourcelink.json

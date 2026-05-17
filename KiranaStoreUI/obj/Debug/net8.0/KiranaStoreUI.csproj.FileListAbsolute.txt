@@ -33,6 +33,7 @@ C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Kirana Store\KiranaSt
 C:\Users\user\Documents\progarms\Documents\JVIT\Internship\Kirana Store\KiranaStoreUI\obj\Debug\net8.0\ref\KiranaStoreUI.dll
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\appsettings.Production.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\KiranaStoreUI.staticwebassets.runtime.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\KiranaStoreUI.exe
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\KiranaStoreUI.deps.json
@@ -46,6 +47,7 @@ C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debu
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.RazorAssemblyInfo.cache
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.RazorAssemblyInfo.cs
+C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.sourcelink.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\staticwebassets\msbuild.KiranaStoreUI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -61,5 +63,3 @@ C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debu
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.pdb
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.genruntimeconfig.cache
 C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\ref\KiranaStoreUI.dll
-C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\bin\Debug\net8.0\appsettings.Production.json
-C:\Users\HP\Downloads\Kirana_Store-main\Kirana_Store-main\KiranaStoreUI\obj\Debug\net8.0\KiranaStoreUI.sourcelink.json

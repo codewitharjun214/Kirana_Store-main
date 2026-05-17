@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KiranaStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ede14b4fc66c3d6307598cf59d35faf04704bba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+625b116c59dfed3c001f6fe31a6dee029d724d7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("KiranaStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KiranaStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
