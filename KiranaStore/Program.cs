@@ -1,6 +1,5 @@
 ﻿using DAL.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using BLL.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -88,33 +87,10 @@ app.UseCors("AllowAll");
 app.UseAuthorization();
 
 // =======================================
-// AUTO MIGRATION
+// DATABASE MIGRATION REMOVED
 // =======================================
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-
-    try
-    {
-        var db = services.GetRequiredService<AppDbContext>();
-
-        db.Database.Migrate();
-    }
-    catch (Exception ex)
-    {
-        var logger =
-            services.GetService<ILogger<Program>>();
-
-        logger?.LogError(
-            ex,
-            "Database migration error"
-        );
-
-        if (app.Environment.IsDevelopment())
-            throw;
-    }
-}
+// Database migration removed for Render deployment
 
 // =======================================
 // ROOT ROUTE
