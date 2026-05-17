@@ -1,21 +1,21 @@
-﻿using KiranaStoreUI.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Json;
+﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace KiranaStoreUI.Controllers
 {
     public class UserController : Controller
     {
-        private readonly HttpClient _client;
+        private readonly HttpClient _httpClient;
 
-        public UserController(IHttpClientFactory factory)
+        public UserController()
         {
-            _client = factory.CreateClient("api");
-        }
+            _httpClient = new HttpClient();
 
-        // ======================================
-        // LOGIN PAGE
-        // ======================================
+            // YOUR RENDER BACKEND URL
+            _httpClient.BaseAddress =
+                new Uri("https://kirana-store-main.onrender.com/");
+        }
 
         [HttpGet]
         public IActionResult Login()
@@ -23,44 +23,39 @@ namespace KiranaStoreUI.Controllers
             return View();
         }
 
-        // ======================================
-        // LOGIN POST
-        // ======================================
-
         [HttpPost]
-        public async Task<IActionResult> Login(Login loginDto)
+        public async Task<IActionResult> Login(string username, string password)
         {
             try
             {
+                var loginData = new
+                {
+                    Username = username,
+                    Password = password
+                };
+
+                var json =
+                    JsonConvert.SerializeObject(loginData);
+
+                var content =
+                    new StringContent(
+                        json,
+                        Encoding.UTF8,
+                        "application/json"
+                    );
+
                 var response =
-                    await _client.PostAsJsonAsync(
-                        "Auth/Login",
-                        loginDto
+                    await _httpClient.PostAsync(
+                        "api/Auth/Login",
+                        content
                     );
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var result =
-                        await response.Content
-                        .ReadFromJsonAsync<LoginResponse>();
-
-                    if (result != null)
-                    {
-                        HttpContext.Session.SetString(
-                            "JWToken",
-                            result.Token
-                        );
-
-                        HttpContext.Session.SetString(
-                            "Username",
-                            result.Username
-                        );
-
-                        return RedirectToAction(
-                            "Dashboard",
-                            "DashBoard"
-                        );
-                    }
+                    return RedirectToAction(
+                        "Index",
+                        "Dashboard"
+                    );
                 }
 
                 ViewBag.Error =
@@ -74,17 +69,6 @@ namespace KiranaStoreUI.Controllers
 
                 return View();
             }
-        }
-
-        // ======================================
-        // LOGOUT
-        // ======================================
-
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Clear();
-
-            return RedirectToAction("Login");
         }
     }
 }
