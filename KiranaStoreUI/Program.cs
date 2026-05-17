@@ -3,9 +3,9 @@
 builder.Services.AddControllersWithViews();
 
 var apiBase = builder.Configuration["ApiBaseUrl"];
+
 if (string.IsNullOrWhiteSpace(apiBase))
 {
-    // Default to local backend when running in development
     apiBase = builder.Environment.IsDevelopment()
         ? "http://localhost:5000/api/"
         : "https://kirana-store-main.onrender.com/api/";
@@ -45,6 +45,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Auth}/{action=Login}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
