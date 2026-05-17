@@ -20,7 +20,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// Access HttpContext
+// HttpContext Accessor
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
@@ -44,20 +44,15 @@ app.UseRouting();
 // Enable Session
 app.UseSession();
 
-// Authorization
 app.UseAuthorization();
 
 // ==========================================
 // Default Route
 // ==========================================
 
-// When opening:
-// https://kirana-store-main-1.onrender.com
-// it will automatically open login page
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Auth}/{action=Login}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 // ==========================================
 // Run Application

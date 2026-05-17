@@ -13,9 +13,10 @@ namespace KiranaStoreUI.Controllers
             _logger = logger;
         }
 
+        // Redirect root URL to Login Page
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Login", "Auth");
         }
 
         public IActionResult Privacy()
@@ -26,7 +27,10 @@ namespace KiranaStoreUI.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel
+            {
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            });
         }
     }
 }
