@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using BLL.Services;
 
 using DAL.Repository.Interface;
-using DAL.Repository.Implementation;
+using DAL.Repository.Implimentation;
 
 var builder = WebApplication.CreateBuilder(args);
 
