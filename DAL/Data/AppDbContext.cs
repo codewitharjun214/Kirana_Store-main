@@ -155,6 +155,21 @@ namespace DAL.Data
             // -------- AuditLog --------
             modelBuilder.Entity<AuditLog>()
                 .HasKey(a => a.AuditId);
+
+            // -------- SEED DATA --------
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    UserId = 1,
+                    FullName = "Admin User",
+                    Username = "admin",
+                    Password = "admin",
+                    Phone = "9876543210",
+                    Role = "Admin",
+                    IsActive = true,
+                    CreatedDate = DateTime.Now
+                }
+            );
         }
     }
 }

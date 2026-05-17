@@ -25,10 +25,12 @@ builder.Services.AddSession(options =>
 // HTTP CLIENT
 // ======================================
 
+var apiBaseUrl = builder.Configuration["ApiBaseUrl"]
+    ?? "http://localhost:5013/api/";
+
 builder.Services.AddHttpClient("api", client =>
 {
-    client.BaseAddress =
-        new Uri("https://kirana-store-main.onrender.com/api/");
+    client.BaseAddress = new Uri(apiBaseUrl);
 });
 
 // ======================================

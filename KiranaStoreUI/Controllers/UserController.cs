@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
+using System.Net.Http;
 using System.Text;
+using System.Text.Json;
 
 namespace KiranaStoreUI.Controllers
 {
@@ -8,13 +9,9 @@ namespace KiranaStoreUI.Controllers
     {
         private readonly HttpClient _httpClient;
 
-        public UserController()
+        public UserController(IHttpClientFactory httpClientFactory)
         {
-            _httpClient = new HttpClient();
-
-            // YOUR RENDER BACKEND URL
-            _httpClient.BaseAddress =
-                new Uri("https://kirana-store-main.onrender.com/");
+            _httpClient = httpClientFactory.CreateClient("api");
         }
 
         [HttpGet]
@@ -34,21 +31,18 @@ namespace KiranaStoreUI.Controllers
                     Password = password
                 };
 
-                var json =
-                    JsonConvert.SerializeObject(loginData);
+                var json = JsonSerializer.Serialize(loginData);
 
-                var content =
-                    new StringContent(
-                        json,
-                        Encoding.UTF8,
-                        "application/json"
-                    );
+                var content = new StringContent(
+                    json,
+                    Encoding.UTF8,
+                    "application/json"
+                );
 
-                var response =
-                    await _httpClient.PostAsync(
-                        "api/Auth/Login",
-                        content
-                    );
+                var response = await _httpClient.PostAsync(
+                    "Auth/Login",
+                    content
+                );
 
                 if (response.IsSuccessStatusCode)
                 {
