@@ -32,13 +32,17 @@ namespace KiranaStoreUI.Controllers
             return client;
         }
 
+        // =========================================
         // LOGIN PAGE
+        // =========================================
         public IActionResult Login()
         {
             return View();
         }
 
+        // =========================================
         // LOGIN POST
+        // =========================================
         [HttpPost]
         public async Task<IActionResult> Login(LoginModel model)
         {
@@ -75,27 +79,33 @@ namespace KiranaStoreUI.Controllers
                 string username = "";
 
                 if (json.RootElement.TryGetProperty("token", out var tokenProp))
-                    token = tokenProp.GetString();
+                    token = tokenProp.GetString() ?? "";
 
                 if (json.RootElement.TryGetProperty("Token", out var tokenProp2))
-                    token = tokenProp2.GetString();
+                    token = tokenProp2.GetString() ?? "";
 
                 if (json.RootElement.TryGetProperty("role", out var roleProp))
-                    role = roleProp.GetString();
+                    role = roleProp.GetString() ?? "";
 
                 if (json.RootElement.TryGetProperty("Role", out var roleProp2))
-                    role = roleProp2.GetString();
+                    role = roleProp2.GetString() ?? "";
 
                 if (json.RootElement.TryGetProperty("username", out var userProp))
-                    username = userProp.GetString();
+                    username = userProp.GetString() ?? "";
 
                 if (json.RootElement.TryGetProperty("Username", out var userProp2))
-                    username = userProp2.GetString();
+                    username = userProp2.GetString() ?? "";
 
+                // =========================================
+                // Save Session
+                // =========================================
                 HttpContext.Session.SetString("JWToken", token);
                 HttpContext.Session.SetString("Username", username);
                 HttpContext.Session.SetString("Role", role);
 
+                // =========================================
+                // Cookie Authentication
+                // =========================================
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, username),
@@ -112,9 +122,12 @@ namespace KiranaStoreUI.Controllers
                     "Cookies",
                     principal);
 
+                // =========================================
+                // Redirect To Dashboard
+                // =========================================
                 return RedirectToAction(
-                    "DashBoard",
-                    "Dashboard");
+                    "Dashboard",
+                    "DashBoard");
             }
             catch (Exception ex)
             {
@@ -124,11 +137,17 @@ namespace KiranaStoreUI.Controllers
             }
         }
 
+        // =========================================
+        // REGISTER PAGE
+        // =========================================
         public IActionResult Register()
         {
             return View();
         }
 
+        // =========================================
+        // REGISTER POST
+        // =========================================
         [HttpPost]
         public async Task<IActionResult> Register(User model)
         {
@@ -136,8 +155,6 @@ namespace KiranaStoreUI.Controllers
                 return View(model);
 
             var client = _factory.CreateClient("api");
-
-
 
             var registerDto = new
             {
@@ -148,18 +165,24 @@ namespace KiranaStoreUI.Controllers
                 Role = model.Role,
             };
 
-            var response = await client.PostAsJsonAsync("Auth/Register", registerDto);
+            var response = await client.PostAsJsonAsync(
+                "Auth/Register",
+                registerDto);
 
             if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction("Login");
             }
 
-            ModelState.AddModelError("", "Registration failed. Try again.");
+            ModelState.AddModelError("",
+                "Registration failed. Try again.");
+
             return View(model);
         }
 
+        // =========================================
         // LOGOUT
+        // =========================================
         public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
