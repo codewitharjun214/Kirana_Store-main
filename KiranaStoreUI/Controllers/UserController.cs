@@ -113,8 +113,8 @@ namespace KiranaStoreUI.Controllers
                     principal);
 
                 return RedirectToAction(
-                    "Index",
-                    "Home");
+                    "DashBoard",
+                    "Dashboard");
             }
             catch (Exception ex)
             {
@@ -122,6 +122,41 @@ namespace KiranaStoreUI.Controllers
 
                 return View(model);
             }
+        }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Register(User model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var client = _factory.CreateClient("api");
+
+
+
+            var registerDto = new
+            {
+                FullName = model.FullName,
+                Username = model.Username,
+                Password = model.Password,
+                Phone = model.Phone,
+                Role = model.Role,
+            };
+
+            var response = await client.PostAsJsonAsync("Auth/Register", registerDto);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Login");
+            }
+
+            ModelState.AddModelError("", "Registration failed. Try again.");
+            return View(model);
         }
 
         // LOGOUT
