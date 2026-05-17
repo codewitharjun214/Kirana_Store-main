@@ -6,9 +6,11 @@ COPY . .
 
 WORKDIR /src/KiranaStoreUI
 
-RUN dotnet restore
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
 
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet restore "KiranaStoreUI.csproj"
+
+RUN dotnet publish "KiranaStoreUI.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 
@@ -19,5 +21,6 @@ COPY --from=build /app/publish .
 EXPOSE 8080
 
 ENV ASPNETCORE_URLS=http://+:8080
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
 
 ENTRYPOINT ["dotnet", "KiranaStoreUI.dll"]
