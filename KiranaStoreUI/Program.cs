@@ -1,14 +1,11 @@
-﻿using KiranaStoreUI.Services;
-
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient("api", client =>
 {
-    // UPDATED RENDER URL
-    client.BaseAddress = new Uri("https://kirana-store-main-1.onrender.com/api/");
+    client.BaseAddress = new Uri("https://kirana-store-main.onrender.com/api/");
 });
 
 builder.Services.AddSession(options =>
@@ -19,8 +16,6 @@ builder.Services.AddSession(options =>
 });
 
 builder.Services.AddHttpContextAccessor();
-
-builder.Services.AddScoped<ApiService>();
 
 var app = builder.Build();
 
@@ -40,9 +35,8 @@ app.UseSession();
 
 app.UseAuthorization();
 
-// DEFAULT ROUTE
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Dashboard}/{action=Dashboard}/{id?}");
+    pattern: "{controller=Auth}/{action=Login}/{id?}");
 
 app.Run();
