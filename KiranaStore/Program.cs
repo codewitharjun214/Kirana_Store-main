@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using BLL.Services;
 
+using DAL.Repository.Interface;
+using DAL.Repository.Implementation;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // =======================================
@@ -42,6 +45,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // =======================================
 // DEPENDENCY INJECTION
 // =======================================
+
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<ProductService>();
@@ -85,12 +90,6 @@ app.UseSwaggerUI();
 app.UseCors("AllowAll");
 
 app.UseAuthorization();
-
-// =======================================
-// DATABASE MIGRATION REMOVED
-// =======================================
-
-// Database migration removed for Render deployment
 
 // =======================================
 // ROOT ROUTE
